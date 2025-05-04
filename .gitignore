@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Sanity
+/sanity/.sanity
+
+# VSCode settings
+.vscode/
+
+# Logs
+logs
+*.log
+
+# Others
+*.swp
+*~
