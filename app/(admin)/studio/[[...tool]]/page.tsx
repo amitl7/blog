@@ -5,7 +5,8 @@
  *
  * You can learn more about the next-sanity package here:
  * https://github.com/sanity-io/next-sanity
- */'use client'
+ */
+// 'use client'
 // import { NextStudio } from 'next-sanity/studio'
 // import config from '../../../sanity.config'
 
@@ -17,8 +18,7 @@
 //   return <NextStudio config={config} />
 // }
 import { NextStudio } from 'next-sanity/studio'
-import config from '../../../sanity.config'
-
+import config from '../../../../sanity.config'
 export const metadata = {
   title: 'Sanity Studio',
   description: 'Content management for the blog',
